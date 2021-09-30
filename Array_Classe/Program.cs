@@ -17,7 +17,7 @@ namespace Array_Classe
             //Utilização do comando for para percorrer o vetor
             for (int i = 0; i < A; i++)
             {
-                Console.WriteLine("Digite as alturas");
+                Console.WriteLine("Digite A Altura das pessoas");
                 //Entrada dos elementos no vetor pelo usuário
                 vect[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             }
